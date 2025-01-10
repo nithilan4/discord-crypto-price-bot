@@ -1,0 +1,19 @@
+{
+  "name": "price",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@isaacs/ttlcache": "^1.4.1",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "start": "tsx index.ts",
+	"dev": "tsx watch index.ts"
+  }
+}
